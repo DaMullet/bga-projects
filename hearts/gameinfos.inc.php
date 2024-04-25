@@ -22,13 +22,13 @@ $gameinfos = array(
 'publisher_website' => '',   
 
 // Board Game Geek ID of the publisher
-'publisher_bgg_id' => '',
+'publisher_bgg_id' => '171',
 
 // Board game geek ID of the game
 'bgg_id' => 6887,
 
 // Players configuration that can be played (ex: 2 to 4 players)
-'players' => array( 2,3,4 ),    
+'players' => array( 4 ),    
 
 // Suggest players to play with this number of players. Must be null if there is no such advice, or if there is only one possible player configuration.
 // NB: the automatic lobby will try first the lowest number of players if this is not specified. So you _have to_ specify this parameter if the lowest player number is not compatible with the default options.
